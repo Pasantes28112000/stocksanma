@@ -75,7 +75,7 @@ CREATE TABLE IF NOT EXISTS configuracion (
     font_size INTEGER
 );
 
-ALTER TABLE configuracion ADD COLUMN passwd TEXT; -- atada con alambre
+ALTER TABLE configuracion ADD COLUMN passwd TEXT;
 
 INSERT INTO configuracion (id, fg, bg, font_name, font_size, passwd) 
     VALUES (1, '#000000', '#FFFFFF', 'Arial', '12', '12341234')
