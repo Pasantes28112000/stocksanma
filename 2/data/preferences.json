@@ -1,0 +1,9 @@
+{
+  "currency_symbol": "$",
+  "currency_position": "before",
+  "decimal_separator": ",",
+  "thousands_separator": ".",
+  "decimal_places": 0,
+  "timezone": "UTC",
+  "appearance": "Light"
+}
